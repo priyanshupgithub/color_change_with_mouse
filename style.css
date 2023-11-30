@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(216, 179, 179);
+}
+
+h1{
+    text-align: center;
+    margin: 50px 15px;
+}
+.box{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: aqua; */
+}
